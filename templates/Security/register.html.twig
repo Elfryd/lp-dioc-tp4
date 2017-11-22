@@ -14,5 +14,9 @@
         birthday
 
     #}
-    <input type="submit" value="register" />
+    <ul>
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+        {{ form_end(form) }}
+    </ul>
 {% endblock %}
